@@ -20,16 +20,16 @@
 </head>
 <body class="bg-obsidian text-white selection:bg-gold selection:text-black overflow-x-hidden">
 
-    <!-- HERO HEADER -->
+    <!-- HERO HEADER WITH MOBILE NAVIGATION FIX -->
     <section class="relative min-h-screen flex flex-col justify-between p-8 md:p-16 border-b border-zinc-900">
-        <div class="flex justify-between items-center w-full">
-            <span class="text-xs uppercase tracking-widest font-bold text-zinc-500">AUTHORIZED LIC ADVISOR</span>
-            <div class="space-x-6 text-xs uppercase tracking-widest text-zinc-400">
+        <div class="flex flex-col sm:flex-row justify-between items-center w-full gap-4 md:gap-0">
+            <span class="text-[10px] md:text-xs uppercase tracking-widest font-bold text-zinc-500 text-center sm:text-left">AUTHORIZED LIC ADVISOR</span>
+            <div class="flex flex-wrap justify-center items-center gap-3 md:gap-6 text-[10px] md:text-xs uppercase tracking-widest text-zinc-400">
                 <a href="#philosophy" class="hover:text-gold transition-colors">Philosophy</a>
                 <a href="#portfolio" class="hover:text-gold transition-colors">Matrix</a>
                 <a href="#framework" class="hover:text-gold transition-colors">Framework</a>
                 <a href="#estimator" class="hover:text-gold transition-colors">Estimator</a>
-                <a href="#contact" class="hover:text-gold transition-colors border border-zinc-800 px-4 py-2 hover:border-gold">Desk</a>
+                <a href="#contact" class="hover:text-gold transition-colors border border-zinc-800 px-3 py-1.5 md:px-4 md:py-2 hover:border-gold">Desk</a>
             </div>
         </div>
 
@@ -208,7 +208,7 @@
         </div>
     </section>
 
-    <!-- PRIVATE CONSULTATION DESK (FULLY WORKING BACKEND) -->
+    <!-- PRIVATE CONSULTATION DESK (FULLY WORKING BACKEND & STYLED CORRECTLY) -->
     <section id="contact" class="p-8 md:p-16 bg-obsidian grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
             <p class="text-gold text-xs uppercase tracking-widest mb-2 font-bold">// MANAGEMENT</p>
@@ -245,7 +245,7 @@
         </div>
     </section>
 
-    <!-- PERSISTENT WHATSAPP WIDGET -->
+    <!-- PERSISTENT FLOATING WHATSAPP WIDGET -->
     <a href="https://wa.me/917874058558?text=Hello%20Sushma%20Ji,%20I%20require%20a%20private%20consultation%20regarding%20an%20LIC%20Portfolio." 
        target="_blank" 
        class="fixed bottom-6 right-6 bg-gold text-black px-4 py-3 rounded-full flex items-center space-x-2 shadow-2xl transition-all duration-300 max-w-[50px] hover:max-w-[240px] overflow-hidden group border border-gold hover:bg-black hover:text-gold z-40">
